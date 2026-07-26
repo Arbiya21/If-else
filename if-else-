@@ -1,0 +1,201 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "a1b98211-60af-420b-b2cb-cec573e53bd6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      " 15000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "train\n"
+     ]
+    }
+   ],
+   "source": [
+    "salary=int(input())\n",
+    "if salary>1000 and salary <20000:\n",
+    "    print('train')\n",
+    "elif salary>20000 and salary <80000:\n",
+    "    print('bike')\n",
+    "elif salary>100000:\n",
+    "    print('car')\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "f09efc5d-ac23-440e-b943-74a354efa090",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter your marks:  95\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Grade A\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks = int(input(\"Enter your marks: \"))\n",
+    "\n",
+    "if marks >= 90:\n",
+    "    print(\"Grade A\")\n",
+    "elif marks >= 75:\n",
+    "    print(\"Grade B\")\n",
+    "elif marks >= 50:\n",
+    "    print(\"Grade C\")\n",
+    "else:\n",
+    "    print(\"Fail\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "adad594c-c9ab-4fa0-87df-eb12c5a994bb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter temperature:  35\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hot\n"
+     ]
+    }
+   ],
+   "source": [
+    "temp = int(input(\"Enter temperature: \"))\n",
+    "\n",
+    "if temp < 20:\n",
+    "    print(\"Cold\")\n",
+    "elif temp < 30:\n",
+    "    print(\"Pleasant\")\n",
+    "elif temp < 40:\n",
+    "    print(\"Hot\")\n",
+    "else:\n",
+    "    print(\"Very Hot\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "982b69e6-b842-4f0c-a10e-4b92634e79db",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter age:  2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "free entry\n"
+     ]
+    }
+   ],
+   "source": [
+    "age = int(input(\"Enter age: \"))\n",
+    "\n",
+    "if age < 5:\n",
+    "    print(\"free entry\")\n",
+    "elif age >=5 and age<=17:\n",
+    "    print(\"child ticket\")\n",
+    "elif age >=18 and age<=59:\n",
+    "    print(\"adult ticket\")\n",
+    "elif age >=60:\n",
+    "    print(\"senior citizen ticket\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "1977bd59-d90b-4118-969c-589407b88725",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter unit:  350\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bill 1000\n"
+     ]
+    }
+   ],
+   "source": [
+    "unit= int(input(\"enter unit: \"))\n",
+    "                \n",
+    "if unit <100:\n",
+    "    print(\"bill free\")\n",
+    "elif unit >=100 and unit<=299:\n",
+    "    print(\"bill 500\")\n",
+    "elif unit >=300 and unit<=499:\n",
+    "    print(\"bill 1000\")\n",
+    "\n",
+    "               "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "22d9c778-c925-4bda-93ea-964db2a0236f",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
